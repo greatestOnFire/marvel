@@ -78,7 +78,7 @@ const CharList = (props) => {
                         }}
         
                     >
-                        <img src={item.thumbnail} alt="abyss"
+                        <img src={item.thumbnail} alt={item.name}
                         style={imgStyle}/>
                         <div className="char__name">{item.name}</div>
                     </li>
